@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="adv">
+        <div id="logoadv">
+            <img src="google-logo(4).jpg" alt="Google Logo">
+        </div>
+        <div id="link">
+            <a href="index.html">Google Search</a>
+            <a href="googleimg.html">Image Search</a>
+        </div>
+    </header>
+    <div id="subadv">
+        <h3>Advanced Search</h3>
+    </div>
+        <form action="https://www.google.com/search">
+            <div class="ip">
+                <div class="text">Find pages with ...</div>
+                <div class="ipfield"></div>
+                <div class="example">To do this in the search box</div>
+            </div>
+            <div class="ip">
+                <div class="text">all these words: </div>
+                <div class="ipfield">
+                    <input type="text" placeholder="Search" name="as_q">
+                </div>
+                <div class="example">Type the important words: tri-colour rat terrier</div>
+            </div>
+            <div class="ip">
+                <div class="text">this exact word or phrase: </div>
+                <div class="ipfield">
+                    <input type="text" placeholder="Search" name="as_epq">
+                </div>
+                <div class="example">Put exact words in quotes: "rat terrier"</div>
+            </div>
+            <div class="ip">
+                <div class="text">any of these words: </div>
+                <div class="ipfield">
+                    <input type="text" placeholder="Search" name="as_oq">
+                </div>
+                <div class="example">Type OR between all the words you want: miniature OR standard</div>
+            </div>
+            <div class="ip">
+                <div class="text">none of these words: </div>
+                <div class="ipfield">
+                    <input type="text" placeholder="Search" name="as_eq">
+                </div>
+                <div class="example">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Advanced Search">
+            </div>
+        </form>
+</body>
+</html>
